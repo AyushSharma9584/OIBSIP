@@ -1,0 +1,241 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+
+
+main {
+    display: flex;
+    width: 98.7vw;
+    height:90.7vh;
+    background: url(abstract-background-digital-technology-work_49459-521.webp);
+}
+
+.login{
+    align-self: left;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 16px;
+   
+    color: white;
+    height: 70%;
+    border:3px solid rgb(207, 138, 41);
+    margin-left: 70px;
+    margin-top: 100px;
+}
+
+.divname {
+    padding: 7vh 0;
+}
+
+.name {
+    padding: 0.8vh 2vw;
+    border-radius: 2vw;
+}
+.password{
+    padding: 0.8vh 2vw;
+    border-radius: 2vw;
+}
+.divsubmit{
+    display:flex;
+    justify-content: center;
+    padding-top:5vh;
+    
+}
+.submit{
+    padding:0.8vh 1.5vw;
+    border-radius:30px;
+    background: #e67e22;
+    color:white;
+    cursor: pointer;
+
+}
+.submit:hover{
+    background-color: orange;
+    color:black;
+
+}
+.submit:active{
+    opacity:0.8;
+}
+
+.heading {
+    align-self: right;
+    display: flex;
+    padding-top: 15vh;
+    
+    flex-direction: column;
+    width: 85%;
+   
+   
+    align-items: center;
+    color: white;
+
+}
+.navlogo{
+    color:#e67e22;
+}
+
+.heading h1 {
+    font-size: 60px;
+    margin-bottom: 40px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.heading span {
+    color: #e67e22;
+    font-family: 'Dancing Script', cursive;
+}
+
+.ph {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.heading p {
+    font-size: 20px;
+
+    line-height: 38px;
+}
+
+.heading a {
+    text-decoration: none;
+
+
+}
+.heading button{
+    margin-bottom: 10px;
+   
+
+}
+
+ .firstbtn,.secondbtn,.submit {
+    margin-top: 43px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 29px;
+    padding-right: 29px;
+    border: 2px solid white; 
+    color: white;
+    background-color: black; 
+    font-weight: bold;
+    border-radius: 4px;
+
+}
+
+button:hover {
+    background-color: orange;
+    color: black;
+}
+
+ button:active {
+    opacity: 0.7;
+
+}
+.secondbtn{
+    padding: 3px 8px;
+    font-size:12px;
+}
+
+
+
+
+#main {
+    background-image: url(backbg2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+
+    width: 100%;
+    height: auto;
+}
+
+
+
+.part1 {
+    display: flex;
+
+}
+
+.part1heading {
+    margin-top: 7rem;
+    margin-left: 7rem;
+    width: 40vw;
+    height: auto;
+   /* border: 2px solid white; */
+    color: white;
+}
+
+.part1para1 {
+    font-size: 17px;
+    margin-top: 20px;
+    margin-bottom: 28px;
+}
+.part1para2{
+    font-size: 17px;
+}
+
+.button button {
+    margin-top: 43px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 29px;
+    padding-right: 29px;
+    margin-bottom: 10px;
+    border: 2px solid white; 
+    color: white;
+    background-color: black; 
+    font-weight: bold;
+    border-radius: 4px;
+
+}
+
+.part1img {
+    width: 35vw;
+    margin-top: 45px;
+    height: auto;
+   /* border: 2px solid white; */
+    margin-left: 25px
+}
+
+.designteamimg {
+    max-width: 100%;
+    height: auto;
+}
+
+.part2 {
+    display: flex;
+}
+
+.part2img {
+    margin-left: 8em;
+    margin-top: 5em;
+    width: 30vw;
+   /* border: 2px solid white; */
+    height: auto;
+}
+
+.responsiveteamimg {
+    max-width: 100%;
+    height: auto;
+}
+
+.part2heading {
+    margin-top: 8rem;
+    margin-left: 6rem;
+    width: 45vw;
+    height: auto;
+   /* border: 2px solid white; */
+    color: white;
+
+}
+
+.part2para {
+    font-size: 17px;
+    margin-top: 23px;
+
+}
